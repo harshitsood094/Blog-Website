@@ -13,7 +13,7 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 
 
 //Creating a posts database
-const url = 'mongodb+srv://admin-harshit:Test123@cluster0.0ursx.mongodb.net/postsDB';
+const url = 'MongoDb_atlasconnection';
 mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true});
 
 const postSchema = new mongoose.Schema({
